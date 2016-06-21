@@ -85,7 +85,7 @@ def flatworld():
 		sleep(1)
 		print y
 
-	mc.setBlocks(MINX, MINY, MINZ, MAXX, MINY, MAXZ, block.GRASS.id)
+	mc.setBlocks(MINX, MINY, MINZ, MAXX, MINY, MAXZ, block.TNT.id, 1)
 
 
 #define buttons
