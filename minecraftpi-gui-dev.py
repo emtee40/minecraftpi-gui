@@ -71,21 +71,21 @@ def play_position():
 #	print "test"
 def flatworld():
 	print("flat world")
-	MINX = -100
-	MAXX = 100
-	MINZ = -100
-	MAXZ = 100
-	MINY = -60
-	MAXY = 64
+	MINX = -5
+	MAXX = 5
+	MINZ = -5
+	MAXZ = 5
+	MINY = -5
+	MAXY = 5
 
-	mc.player.setPos(0,0,0)
+	mc.player.setPos(0,0,MAXZ+25)
 
 	for y in range(MAXY, MINY, -1):
-		mc.setBlocks(MINX, y, MINZ, MAXX, y, MAXZ, block.AIR.id)
+		mc.setBlocks(MINX, y, MINZ, MAXX, y, MAXZ, block.TNT.id,1)
 		sleep(1)
 		print y
 
-	mc.setBlocks(MINX, MINY, MINZ, MAXX, MINY, MAXZ, block.TNT.id, 1)
+	mc.setBlocks(MINX, MINY, MINZ, MAXX, MINY, MAXZ, block.GRASS.id)
 
 
 #define buttons
