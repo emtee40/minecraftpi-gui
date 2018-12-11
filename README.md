@@ -15,12 +15,19 @@ Basic Instructions
  2. Open and run Minecraftpi-gui.py
 
 You should at least be able to post to chat and use the other features.  
+
 **Note that create flat world takes time.**
 Flat world has been modified so it is smaller. 
 This program integrates code from other sources.
 
-Feel free to modifiy as I am sure there are some hard core Python / MCPI hackers out there who can do more with this. 
+Feel free to 
 
+ - Fork the program to your own repository Modify and add new features
+ -    Improve existing features and bug fix 
+ - Collaborate with friends 
+ - Issue pull requests back to me.
+
+As with anything read the source code to see what it does.   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NjczNTY3XX0=
+eyJoaXN0b3J5IjpbMTI0NjQ5NzEyN119
 -->
